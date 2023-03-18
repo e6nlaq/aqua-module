@@ -1,0 +1,22 @@
+{
+  "name": "aqua-module",
+  "version": "1.0.0",
+  "description": "Aqua's module for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e6nlaq/aqua-module.git"
+  },
+  "keywords": [
+    "aqua"
+  ],
+  "author": "=",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/e6nlaq/aqua-module/issues"
+  },
+  "homepage": "https://github.com/e6nlaq/aqua-module#readme"
+}
