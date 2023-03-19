@@ -2,7 +2,12 @@
 // Aqua Module / index.js
 // Copyright (c) 2023 e6nlaq
 
+const is_windows = process.platform === 'win32'
+const is_mac = process.platform === 'darwin'
+const is_linux = process.platform === 'linux'
 var varia = {};
+const windows = is_windows;
+const unix = is_mac || is_linux;
 
 exports.version = "1.0.0";
 exports.outf = function (s) {
@@ -41,4 +46,7 @@ exports.var = function (type, s) {
 }
 exports.set = function (name, val) {
 	varia[name] = val;
+}
+exports.len = function (val) {
+	return val.length;
 }
