@@ -7,13 +7,13 @@ Aqua's module for Node.js
 Execute the following command
 
 ```bash
-npm install git+https://github.com/e6nlaq/aqua-module
+npm install @e6nlaq/aqua-module
 ```
 
 Add the following line to your JavaScript file
 
 ```javascript
-const aqua = require('aqua-module');
+const aqua = require('@e6nlaq/aqua-module');
 ```
 
 ## Attention
